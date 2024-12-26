@@ -1,8 +1,8 @@
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from pyrogram.types import InlineKeyboardButton
+
 import config
 from SHUKLAMUSIC import app
 
-site_link = "https://professor.org.in"
 
 def start_panel(_):
     buttons = [
@@ -13,7 +13,8 @@ def start_panel(_):
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
     ]
-    return InlineKeyboardMarkup(buttons)
+    return buttons
+
 
 def private_panel(_):
     buttons = [
@@ -29,7 +30,7 @@ def private_panel(_):
             InlineKeyboardButton(text=_["S_B_2"], url=config.SUPPORT_CHAT),
         ],
         [
-            InlineKeyboardButton(text="OWNER", url=site_link),
+            InlineKeyboardButton(text=_["S_B_5"], url=config.OWNER_ID),
         ],
     ]
-    return InlineKeyboardMarkup(buttons)
+    return buttons
