@@ -1,4 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
+from telegram import WebAppInfo
 
 import config
 from SHUKLAMUSIC import app
