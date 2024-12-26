@@ -1,5 +1,5 @@
 from pyrogram.types import InlineKeyboardButton
-
+from telegram import InlineKeyboardButton, WebAppInfo
 import config
 from SHUKLAMUSIC import app
 
