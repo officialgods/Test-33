@@ -3,6 +3,7 @@ from telegram import InlineKeyboardButton, WebAppInfo
 import config
 from SHUKLAMUSIC import app
 
+site_link = "https://professor.org.in"
 
 def start_panel(_):
     buttons = [
