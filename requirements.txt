@@ -5,7 +5,9 @@ asyncio
 telebot==0.0.5
 youtube_dl==2021.12.17 
 beautifulsoup4
+bing_image_downloader
 bs4
+deepai
 dnspython
 ffmpeg-python
 git+https://github.com/AsmSafone/SafoneAPI
