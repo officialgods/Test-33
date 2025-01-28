@@ -23,7 +23,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 10000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @purvi_music_bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6762113050))
+OWNER_ID = int(getenv("OWNER_ID", 7462077192))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -40,9 +40,9 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SHIVANSH474")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/mastiwithfriendsxd")
-SHUKLA = getenv("SHUKLA", "https://professor.org.in")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THE_SOULMATES_HUB")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/XPROBOTS_SUPPORT")
+SHUKLA = getenv("PSYCHO", "https://t.me/OG_PSYCHO_XD")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -79,21 +79,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/7dz563.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/l7ikiy.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/7dz563.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/ruyh1i.jpg"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-STATS_IMG_URL = "https://telegra.ph/file/13afb9ee5c5da17930f1e.png"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/7dz563.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/l7ikiy.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/r940l7.jpg"
 TELEGRAM_VIDEO_URL = "https://files.catbox.moe/7dz563.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+STREAM_IMG_URL = "https://t.me/+zzriazRZepdlMDRl"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/2nyjkg.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/ruyh1i.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/l7ikiy.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/ruyh1i.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/ruyh1i.jpg"
 
 
 def time_to_seconds(time):
