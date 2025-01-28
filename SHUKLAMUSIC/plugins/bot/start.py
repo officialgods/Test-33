@@ -24,13 +24,13 @@ from SHUKLAMUSIC.utils.inline import help_pannel, private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 
-@app.on_message(filters.command(["mstart"]) & filters.private & ~BANNED_USERS)
+@app.on_message(filters.command(["start"]) & filters.private & ~BANNED_USERS)
 @LanguageStart
 async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     
     # Typing effect part
-    typing_message = await message.reply("<b>𝖣ɪɴɢ..𝖣ᴏɴɢ..❤️‍🔥</b>")  # Initial message
+    typing_message = await message.reply("<b>Ｒᴜᴋᴏ ʙᴀʙᴜ..ʀᴜᴋᴏ..❤️‍🔥</b>")  # Initial message
     
     # Simulate typing
     typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥</b>"
@@ -139,7 +139,7 @@ async def start_pm(client, message: Message, _):
 
 
 
-@app.on_message(filters.command(["mstart"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["start"]) & filters.group & ~BANNED_USERS)
 @LanguageStart
 async def start_gp(client, message: Message, _):
     out = start_panel(_)
