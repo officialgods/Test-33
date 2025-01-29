@@ -33,7 +33,7 @@ async def start_pm(client, message: Message, _):
     typing_message = await message.reply("<b>Ｒᴜᴋᴏ ʙᴀʙᴜ..ʀᴜᴋᴏ..❤️‍🔥</b>")  # Initial message
     
     # Simulate typing
-    typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥</b>"
+    typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...🖤😎</b>"
     
     for i in range(1, len(typing_text) + 1):  # Loop through each character
         try:
